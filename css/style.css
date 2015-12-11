@@ -1,0 +1,117 @@
+
+body {
+ padding-top: 14px;
+ padding-bottom: 3px;
+ background-color: #FFFFFF;
+}
+a {
+ border:none;
+ text-decoration: none;
+ }
+ /* Conteudo */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 920px;
+}
+
+.slogan{
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: -50px;
+
+    }
+
+          
+.container-narrow > hr {
+  margin: 100px 0;
+  }
+#hr2 {
+  background: url(img/hr2.png) no-repeat center;
+  margin-top:20px;
+  height:15px;
+  border:none;
+}
+#hr1 {
+  background: url(img/hr1.png) no-repeat center;
+  margin-bottom: -10px;
+}
+ /* Sites*/
+.site {
+  margin: -20px 0;
+  text-align: center;
+  width:850px;
+  height:300px;
+  padding:0 0 10px 0;                
+}
+.nome-site {
+  font-size:12px;   
+  color: #4BCDFC;  
+  }
+.temperatura {
+  float:left;
+  width:170px;
+  margin-top:80px;
+  cursor: pointer;
+ }
+.temperatura:hover {
+ opacity: 0.77;                
+ } 
+
+.texto-box-1 {
+ text-align: justify;
+ display: table;
+ height: 400px;
+ #position: relative;
+ overflow: hidden;
+}
+
+.texto-box-2 {
+ #position: absolute;
+ #top: 30%;
+ display: table-cell;
+ vertical-align: middle;
+}
+         
+div .rodape {
+ position: relative;
+ bottom:0;
+ top: 100%;
+ width:100%;
+ margin-top: auto;
+ margin-left:0%;
+}
+ .formulario{
+  width:300px;
+  height:100px;
+  position:absolute;
+  top:25%;
+  left:40%;
+}
+
+.form-signin {
+  max-width: 250px;
+  position: absolute;
+  padding: 19px 29px 29px;
+  margin: 400 auto 20px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  top:25%;
+  left:35%;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+      border-radius: 5px;
+ -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+ -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  }
+  .form-signin .form-signin-heading,
+  .form-signin .checkbox {
+    margin-bottom: 5px;
+  }
+  .form-signin input[type="text"],
+  .form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+  }
